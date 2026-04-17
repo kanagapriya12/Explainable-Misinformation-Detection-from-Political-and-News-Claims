@@ -114,43 +114,6 @@ Train / Test Split (80/20, stratified)
 
 ---
 
-## 🚀 How to Run
-
-### Step 1 — Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/Explainable-Misinformation-Detection.git
-cd Explainable-Misinformation-Detection
-```
-
-### Step 2 — Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3 — Open the notebook
-```bash
-jupyter notebook Explainable-Misinformation-Detection_.ipynb
-```
-
-### Step 4 — Run all cells in order
-- Cell 1: Title
-- Cell 2: Imports
-- Cell 3: Text cleaning
-- Cell 4: Dataset loading (GDELT + Reddit — requires internet)
-- Cell 5: Preprocessing
-- Cell 6: Train/test split
-- Cell 7: Baseline model
-- Cell 8: DistilBERT (takes 15–30 mins on CPU)
-- Cell 9: LIME explainability
-- Cell 10: GPT-2 explanations
-- Cell 11: Final comparison table
-- Cell 12: Sample predictions
-- Cell 13: Reproducibility note
-
-> **Hardware note:** All experiments were run on CPU. DistilBERT was trained on a reduced subset. A GPU will significantly reduce training time.
-
----
-
 ## 📦 Requirements
 
 ```
