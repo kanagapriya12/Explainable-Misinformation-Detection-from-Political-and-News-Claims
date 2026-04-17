@@ -27,8 +27,7 @@ Explainable-Misinformation-Detection/
 ├── Explainable-Misinformation-Detection_.ipynb   # Main notebook (final pipeline)
 ├── README.md                                      # This file
 ├── requirements.txt                               # All Python dependencies
-└── outputs/
-    └── misinformation_dashboard.png               # Final results dashboard
+
 ```
 
 ---
