@@ -129,59 +129,6 @@ transformers
 lime
 ```
 
-Install all at once:
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn requests tensorflow torch transformers lime
-```
-
----
-
-## 📁 How to Upload to GitHub
-
-### Step 1 — Create a GitHub account
-Go to [https://github.com](https://github.com) and sign up if you don't have an account.
-
-### Step 2 — Create a new repository
-1. Click the **+** button (top right) → **New repository**
-2. Name it: `Explainable-Misinformation-Detection`
-3. Set to **Public**
-4. Tick **Add a README file** → **NO** (we already have one)
-5. Click **Create repository**
-
-### Step 3 — Install Git on your computer
-Download from: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-
-### Step 4 — Open Command Prompt
-Press `Windows + R` → type `cmd` → Enter
-
-### Step 5 — Navigate to your project folder
-```bash
-cd C:\Users\Kanaga Priya\path\to\your\project
-```
-
-Find the path by running this in Jupyter:
-```python
-import os
-print(os.getcwd())
-```
-
-### Step 6 — Initialise Git and push
-```bash
-git init
-git add .
-git commit -m "Final submission: Explainable Misinformation Detection"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/Explainable-Misinformation-Detection.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your actual GitHub username.
-
-### Step 7 — Verify
-Go to `https://github.com/YOUR_USERNAME/Explainable-Misinformation-Detection` — your files should all be visible.
-
----
-
 ## 🔁 Reproducibility Notes
 
 - All results in the project report are taken directly from the notebook outputs
