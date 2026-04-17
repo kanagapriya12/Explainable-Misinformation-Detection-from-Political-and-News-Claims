@@ -113,21 +113,6 @@ Train / Test Split (80/20, stratified)
 
 > **Note:** Fill in the actual numbers from your notebook output before submission.
 
----
-
-📦 Requirements
-
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-requests
-tensorflow
-torch
-transformers
-lime
-
 ----
 
 ## 🔁 Reproducibility Notes
