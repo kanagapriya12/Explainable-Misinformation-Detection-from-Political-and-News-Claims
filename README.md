@@ -115,6 +115,20 @@ Train / Test Split (80/20, stratified)
 
 ---
 
+📦 Requirements
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+requests
+tensorflow
+torch
+transformers
+lime
+
+----
+
 ## 🔁 Reproducibility Notes
 
 - All results in the project report are taken directly from the notebook outputs
